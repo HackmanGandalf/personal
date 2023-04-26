@@ -45,7 +45,7 @@
                     <div class="col-lg-10">
                         <h2>A not-so-brief bio</h2>
                         <p class="lead mb-5">
-                            Greetings, dear stranger! I am not Gandalf the Grey, but I wish I was. I honestly would love to scream at a Balrog, the phrase "YOU SHALL NOT PASS!" as I strike a narrow bridge with my walking staff. But this is reality and we don't get to be what we want to be. <br><br>
+                            Greetings, dear stranger! I and not Gandalf the Grey, but I wish I was. I honestly would love to scream at a Balrog, the phrase "YOU SHALL NOT PASS!" as I strike a narrow bridge with my walking staff. But this is reality and we don't get to be what we want to be. <br><br>
                             
                             Pardon me for digressing. I must admit, I had a bit too much free time on my hands. But instead of being productive in the conventional sense, I decided to embark on a journey of creative exploration by building this website, which will soon be filled with various projects. As I reflected on how to best utilize my time, I realized that I wanted to channel my energy into something that would challenge and inspire me. And thus, this website was born. It's a labor of love, fueled by my curiosity and a penchant for trying new things. <br><br>
 
@@ -99,7 +99,7 @@
                     <em>my</em>
                     newsletter
                 </h2>
-                <a class="btn btn-primary btn-xl" href="#">Sign up (Button not working right not. Please come back later)</a>
+                <a class="btn btn-primary btn-xl" href="#">Sign up (button not working right now. Come back later. Ciao!)</a>
             </div>
         </section>
         <!-- Portfolio-->
@@ -110,6 +110,17 @@
                     <h2 class="mb-5">The random projects I was talking about earlier</h2>
                 </div>
                 <div class="row gx-0">
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="{{ url_for('trivia') }}">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Trivia</div>
+                                    <p class="mb-0">Can you score 10/10?</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="static/assets/img/trivia.png" alt="..." />
+                        </a>
+                    </div>
                     <div class="col-lg-6">
                         <a class="portfolio-item" href="{{ url_for('calculator') }}">
                             <div class="caption">
@@ -122,17 +133,6 @@
                         </a>
                     </div>
                     <!-- <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Ice Cream</div>
-                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="static/assets/img/portfolio-2.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
@@ -184,7 +184,9 @@
         <!-- Scroll to Top Button-->
         <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
         <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/request@2.88.2/index.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- <script src="{{ url_for('static', filename='node_modules/request/request.js' ) }}"></script> -->
         <!-- Core theme JS-->
         <script src="static/js/scripts.js"></script>
     </body>

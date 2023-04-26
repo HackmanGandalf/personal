@@ -12,6 +12,10 @@ def index():
 def calculator():
     return render_template('calculator.html')
 
+@app.route('/trivia')
+def trivia():
+    return render_template('trivia.html')
+
 
 if __name__ == "__main__":
     app.run(debug=True)
