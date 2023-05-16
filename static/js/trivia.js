@@ -48,8 +48,8 @@ fetch("https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=boo
       questionNumber += 1
       item += 1
 
-      if (item < result.length) {
-        $(".questionBox h3").text(result[item].question);
+      if (item < result.length) { 
+        $(".questionBox h3").text(decodeURIComponent(result[item].question));
       } else {
         $(".questionBox h3").text(end_of_test + score + " out of " + result.length);
         var button = document.querySelectorAll('.button');

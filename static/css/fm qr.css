@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+.background {
+    background-color: hsl(212, 45%, 89%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.attribution {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    color: darkgrey;
+}
+
+a {
+    color: darkgray;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    width: 270px;
+    height: 430px;
+    border-radius: 20px;
+    font-family: 'Outfit', sans-serif;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.qr {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+    margin-top: 5px;
+    border-radius: 15px;
+    width: 240px;
+    height: 240px;
+}
+
+.header {
+    font-weight: 700;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: darkgrey;
+}

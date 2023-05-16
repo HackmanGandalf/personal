@@ -16,6 +16,10 @@ def calculator():
 def trivia():
     return render_template('trivia.html')
 
+@app.route('/frontendqr')
+def frontendqr():
+    return render_template('fm qr.html')
+
 
 if __name__ == "__main__":
     app.run(debug=True)
