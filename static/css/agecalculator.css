@@ -22,12 +22,21 @@ html, body{
     
 }
 
-@media screen and (max-width:750px) {
+/* @media (max-width:1440px) {
+    .card {
+        width: 600px;
+        height: 500px;
+    }
+} */
+
+@media screen and (max-width: 750px) {
     .card {
         width: 350px;
         height: 450px;
     }
 }
+
+
 .inputfields {
     padding-top: 25px;
     display: flex;
@@ -38,7 +47,7 @@ html, body{
     padding-left: 35px;
 }
 
-@media (max-width:767px) {
+@media screen and (max-width: 750px) {
     .date {
         padding-left: 25px;
     }
@@ -52,7 +61,7 @@ html, body{
     letter-spacing: 4px;
 }
 
-@media (max-width:767px) {
+@media screen and (max-width: 750px) {
     .fieldname {
         font-size: 10px;
     }
@@ -101,9 +110,9 @@ input {
     cursor: pointer;
 }
 
-@media (max-width:767px) {
+@media screen and (max-width: 750px) {
     input {
-        width: 80px;
+        width: 70px;
         height: 40px;
         font-size: 18px;
     }
@@ -130,7 +139,7 @@ input::placeholder {
 }
 
 
-@media (max-width:767px) {
+@media screen and (max-width: 750px) {
     input::placeholder {
         font-size: 18px;
     }
@@ -150,7 +159,7 @@ input::placeholder {
     margin-left: 35px;
 }
 
-@media (max-width:767px) {
+@media screen and (max-width: 750px) {
     .hrLine {
         padding-top: 20px;
     }
@@ -166,7 +175,7 @@ button {
     cursor: pointer;
 }
 
-@media (max-width:767px) {
+@media screen and (max-width: 750px) {
     button {
         width: 70px;
         height: 70px;
@@ -191,7 +200,7 @@ button:active {
     height: 80px;
 }
 
-@media (max-width:767px) {
+@media screen and (max-width: 750px) {
     .textbg {
         height: 60px;
     }
@@ -207,9 +216,9 @@ button:active {
     margin: 0;    
 }
 
-@media (max-width:767px) {
+@media screen and (max-width: 750px) {
     .text {
-        font-size: 60px;
+        font-size: 55px;
     }
 }
 
@@ -223,9 +232,9 @@ button:active {
     margin: 0;
 }
 
-@media (max-width:767px) {
+@media screen and (max-width: 750px) {
     .year {
-        font-size: 60px;
+        font-size: 55px;
     }
 }
 
@@ -239,9 +248,9 @@ button:active {
     margin: 0;
 }
 
-@media (max-width:767px) {
+@media screen and (max-width: 750px) {
     .month {
-        font-size: 60px;
+        font-size: 55px;
     }
 }
 
@@ -255,9 +264,9 @@ button:active {
     margin: 0;
 }
 
-@media (max-width:767px) {
+@media screen and (max-width: 750px) {
     .day {
-        font-size: 60px;
+        font-size: 55px;
     }
 }
 
