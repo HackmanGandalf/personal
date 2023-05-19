@@ -1,0 +1,177 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.background {
+    background-color: hsl(0, 0%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    height: 500px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 150px;
+    
+}
+
+.inputfields {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.date {
+    padding-left: 35px;
+}
+
+.fieldname {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: small;
+    color: hsl(0, 1%, 44%);
+    letter-spacing: 4px;
+}
+
+#dayvalidationMessage {
+    color: red;
+    display: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-small;
+    font-style: italic;
+    padding-top: 5px;
+  }
+
+#monthvalidationMessage {
+    color: red;
+    display: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-small;
+    font-style: italic;
+    padding-top: 5px;
+  }
+
+#yearvalidationMessage {
+    color: red;
+    display: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-small;
+    font-style: italic;
+    padding-top: 5px;
+  }
+
+input {
+    border-radius: 8px;
+    border-color: hsl(0, 0%, 86%);
+    border-width: 1px;
+    border-style: solid;
+    width: 100px;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size:x-large;
+    color: hsl(0, 1%, 44%);
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size:x-large;
+    color: hsl(0, 1%, 44%);
+    /* padding-left: 10px; */
+}
+
+.hrLine {
+    display: flex;
+    width: 520px;
+    margin-left: 35px;
+}
+
+button {
+    background-color: hsl(259, 100%, 65%);
+    border: none;
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: black
+}
+
+.hr {
+    border: none;
+    border-bottom: 1.5px solid hsl(0, 0%, 86%);
+    flex-grow: 1;
+    margin: 2rem 0;
+    padding-left: 35px;
+}
+
+.textbg {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+
+.text {
+    color: hsl(0, 0%, 8%);
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 75px;
+    padding-left: 5px;
+    margin: 0;    
+}
+
+.year {
+    color: hsl(259, 100%, 65%);
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 75px;
+    padding-left: 35px;
+    margin: 0;
+}
+
+.month {
+    color: hsl(259, 100%, 65%);
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 75px;
+    padding-left: 35px;
+    margin: 0;
+}
+
+.day {
+    color: hsl(259, 100%, 65%);
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 75px;
+    padding-left: 35px;
+    margin: 0;
+}
+
+.attribution {
+    color: hsl(0, 1%, 44%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: small;
+    padding-top: 15px;
+}
+
+a {
+    color: hsl(0, 1%, 44%);
+}

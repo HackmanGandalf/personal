@@ -20,6 +20,10 @@ def trivia():
 def frontendqr():
     return render_template('fm qr.html')
 
+@app.route('/agecalculator')
+def agecalculator():
+    return render_template('agecalculator.html')
+
 
 if __name__ == "__main__":
     app.run(debug=True)
