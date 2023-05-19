@@ -1,7 +1,6 @@
 html, body{
     height: 100%;
     margin: 0;
-    width: 100%
 }
 
 .background {
@@ -23,6 +22,12 @@ html, body{
     
 }
 
+@media (max-width:767px) {
+    .card {
+        width: 380px;
+        height: 450px;
+    }
+}
 .inputfields {
     padding-top: 25px;
     display: flex;
@@ -33,6 +38,12 @@ html, body{
     padding-left: 35px;
 }
 
+@media (max-width:767px) {
+    .date {
+        padding-left: 25px;
+    }
+}
+
 .fieldname {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -40,6 +51,13 @@ html, body{
     color: hsl(0, 1%, 44%);
     letter-spacing: 4px;
 }
+
+@media (max-width:767px) {
+    .fieldname {
+        font-size: 10px;
+    }
+}
+
 
 #dayvalidationMessage {
     color: red;
@@ -78,9 +96,44 @@ input {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size:x-large;
-    color: hsl(0, 1%, 44%);
+    color: black;
     padding-left: 10px;
     cursor: pointer;
+}
+
+@media (max-width:767px) {
+    input {
+        width: 80px;
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
+.inputerror {
+    border-radius: 8px;
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+    width: 100px;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size:x-large;
+    color: black;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: hsl(0, 1%, 44%);
+    
+}
+
+
+@media (max-width:767px) {
+    input::placeholder {
+        font-size: 18px;
+    }
 }
 
 ::placeholder {
@@ -93,8 +146,14 @@ input {
 
 .hrLine {
     display: flex;
-    width: 520px;
+    /* width: 520px; */
     margin-left: 35px;
+}
+
+@media (max-width:767px) {
+    .hrLine {
+        padding-top: 20px;
+    }
 }
 
 button {
@@ -105,6 +164,13 @@ button {
     border-radius: 35px;
     margin-right: 10px;
     cursor: pointer;
+}
+
+@media (max-width:767px) {
+    button {
+        width: 70px;
+        height: 70px;
+    }
 }
 
 button:active {
@@ -125,6 +191,12 @@ button:active {
     height: 80px;
 }
 
+@media (max-width:767px) {
+    .textbg {
+        height: 60px;
+    }
+}
+
 .text {
     color: hsl(0, 0%, 8%);
     font-family: 'Poppins', sans-serif;
@@ -133,6 +205,12 @@ button:active {
     font-size: 75px;
     padding-left: 5px;
     margin: 0;    
+}
+
+@media (max-width:767px) {
+    .text {
+        font-size: 60px;
+    }
 }
 
 .year {
@@ -145,6 +223,12 @@ button:active {
     margin: 0;
 }
 
+@media (max-width:767px) {
+    .year {
+        font-size: 60px;
+    }
+}
+
 .month {
     color: hsl(259, 100%, 65%);
     font-family: 'Poppins', sans-serif;
@@ -155,6 +239,12 @@ button:active {
     margin: 0;
 }
 
+@media (max-width:767px) {
+    .month {
+        font-size: 60px;
+    }
+}
+
 .day {
     color: hsl(259, 100%, 65%);
     font-family: 'Poppins', sans-serif;
@@ -163,6 +253,12 @@ button:active {
     font-size: 75px;
     padding-left: 35px;
     margin: 0;
+}
+
+@media (max-width:767px) {
+    .day {
+        font-size: 60px;
+    }
 }
 
 .attribution {

@@ -60,7 +60,7 @@ function handleClick(event) {
     dayvalidationMessage.style.display = 'none';
     monthvalidationMessage.style.display = 'none';
     yearvalidationMessage.style.display = 'none';
-    form.reset();
+    // form.reset();
 
     console.log(today.getDate())
     calculate_days_in_month(month)
